@@ -1,0 +1,58 @@
+{
+    "config": {
+        "wifi-ssid": {
+            "help": "WiFi SSID",
+            "value": "\"MIFI-43E8\""
+        },
+        "wifi-password": {
+            "help": "WiFi Password",
+            "value": "\"1234567890\""
+        },
+        "esp-rx-pin": {
+            "help": "ESP8266 module RX pin",
+            "value": "PB_11"
+        },
+        "esp-tx-pin": {
+            "help": "ESP8266 module TX pin",
+            "value": "PB_10"
+        },
+        "esp-rst-pin": {
+            "help": "ESP8266 module RST pin",
+            "value": "PB_12"
+        },
+        "esp-ch_pd-pin": {
+            "help": "ESP8266 module CH_PD pin",
+            "value": "PB_13"
+        },
+        "mqtt-id": {
+            "help": "MQTT Client id",
+            "value": "\"670e351ddf034775929dd5f2a0623e7b\""
+        },
+        "hostname": {
+            "help": "true = hostname, false IP",
+            "value": "false"
+        },
+        "mqtt-broker-ip": {
+            "help": "MQTT Broker host ip.",
+            "value": "\"192.168.137.1\""
+        },
+        "mqtt-broker-hostname": {
+            "help": "MQTT Broker resolvable hostname.",
+            "value": "\"test.mosquitto.org\""
+        },
+        "mqtt-broker-port": {
+            "help": "MQTT Broker port",
+            "value": "1883"
+        },
+        "mqtt-topic": {
+            "help": "MQTT topic to publish",
+            "value": "\"MBED/joerg/ersteTests\""
+        }
+    },
+    "target_overrides": {
+        "*": {
+            "platform.stdio-convert-newlines": true,
+            "esp8266.provide-default" : false
+        }
+    }
+}

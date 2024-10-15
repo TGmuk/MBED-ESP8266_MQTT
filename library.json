@@ -1,0 +1,27 @@
+{
+    "name": "ESP8266MQTT",
+    "version": "1.0.0",
+    "description": "ESP8266 MQTT Lib",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/TGmuk/MBED-ESP8266_MQTT"
+    },
+    "frameworks": "mbed",
+    "platforms": "ststm32",
+    "build": {
+      "flags": [
+        "-I source/",
+        
+        "-I source/paho_mqtt_embedded_c/MQTTClient/src/",
+        "-I source/paho_mqtt_embedded_c/MQTTClient/src/mbed",
+        "-I source/paho_mqtt_embedded_c/MQTTClient-C/src/",
+        "-I source/paho_mqtt_embedded_c/MQTTPacket/src/",
+
+        "-I source/paho_mqtt-sn_embedded_c/MQTTSNClient/src/",
+        "-I source/paho_mqtt-sn_embedded_c/MQTTSNGateway/src/",
+        "-I source/paho_mqtt-sn_embedded_c/MQTTSNPacket/src/"
+        
+		]
+    }
+  
+}
