@@ -5,7 +5,7 @@
 This library is for connecting a STM32 microcontroller via MQTT to other MQTT Devices
 
 ### Configuration
-For the configuration, you must copy the [mbed_app.json](mbed_app.json) file to the same directory as the platform.ini file.
+For the configuration, you must copy the [mbed_app.json](mbed_app.json) file to the same directory as the `platformio.ini` file.
 
 
 ### Credits
