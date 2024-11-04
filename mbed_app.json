@@ -52,7 +52,8 @@
     "target_overrides": {
         "*": {
             "platform.stdio-convert-newlines": true,
-            "esp8266.provide-default" : false
+            "esp8266.provide-default" : false,
+            "target.printf_lib": "std"
         }
     }
 }
