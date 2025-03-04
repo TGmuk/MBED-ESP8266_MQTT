@@ -25,7 +25,7 @@
             "value": "PB_13"
         },
         "mqtt-id": {
-            "help": "MQTT Client id",
+            "help": "MQTT Client id DOES NOT DO ANYTHING",
             "value": "\"670e351ddf034775929dd5f2a0623e7b\""
         },
         "hostname": {
@@ -45,7 +45,7 @@
             "value": "1883"
         },
         "mqtt-topic": {
-            "help": "MQTT topic to publish",
+            "help": "MQTT topic to publish DOES NOT DO ANYTHING",
             "value": "\"MBED/joerg/ersteTests\""
         }
     },
